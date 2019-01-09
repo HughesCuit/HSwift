@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension NSLayoutConstraint {
+public extension NSLayoutConstraint {
     
     /// returns a new NSLayoutConstraint object with multiplier specified by the parameter from current NSLayoutConstraint object
     ///
