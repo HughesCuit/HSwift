@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C91C17E21E5952D0028074A /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C91C17D21E5952D0028074A /* NSLayoutConstraint.swift */; };
 		6C9B93A421D7114100FF4953 /* HSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9B93A221D7114100FF4953 /* HSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C9B93AC21D7117A00FF4953 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9B93AB21D7117A00FF4953 /* Array.swift */; };
 		6CD2F7A821E353B9003EB85E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2F7A721E353B9003EB85E /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C91C17D21E5952D0028074A /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
 		6C9B939F21D7114100FF4953 /* HSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9B93A221D7114100FF4953 /* HSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSwift.h; sourceTree = "<group>"; };
 		6C9B93A321D7114100FF4953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				6C9B93AB21D7117A00FF4953 /* Array.swift */,
 				6CD2F7A721E353B9003EB85E /* UIView.swift */,
+				6C91C17D21E5952D0028074A /* NSLayoutConstraint.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD2F7A821E353B9003EB85E /* UIView.swift in Sources */,
+				6C91C17E21E5952D0028074A /* NSLayoutConstraint.swift in Sources */,
 				6C9B93AC21D7117A00FF4953 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
